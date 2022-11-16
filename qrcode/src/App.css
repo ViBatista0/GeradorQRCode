@@ -1,0 +1,45 @@
+body{
+  background-color: #3CACAE;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.input{
+  height: 38px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #b6b6b6;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+button{
+  border: 2px solid black;
+  width: 100%;
+  height: 30px;
+  border-radius: 12px;
+  background-color: black;
+  color: #3CACAE;
+  cursor: pointer;
+  
+}
+
+button:hover{
+  transition: .5s;
+  color: black;
+  background-color: white;
+}
